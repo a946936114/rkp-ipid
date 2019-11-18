@@ -9,7 +9,7 @@
 #include <linux/netdevice.h>
 #include <linux/random.h>
 #include <linux/moduleparam.h>
-#include <asm/limits.h>
+#include <linux/limits.h>
 
 MODULE_AUTHOR("Haonan Chen");
 MODULE_DESCRIPTION("Modify IDs of IP headers into numerically increasing order, for anti-detection of NAT.");
